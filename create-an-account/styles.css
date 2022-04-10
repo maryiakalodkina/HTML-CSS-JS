@@ -1,0 +1,26 @@
+.turquoise {
+    position: absolute;
+    background-color: #71c9ce;
+    border-radius: 30px;
+    border-color: black;
+    border: 2px solid;
+    top: 130px;
+    left: 250px;
+    right: 250px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.back {
+    width:100%;
+}
+.padd {
+    padding: 7px;
+    font-size: 12px;
+}
+.btn {
+    padding: 12px;
+    background-color: bisque;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: black 2px solid;
+}
