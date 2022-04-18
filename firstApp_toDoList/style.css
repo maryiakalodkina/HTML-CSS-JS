@@ -1,0 +1,96 @@
+.header, .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to left, #aa4b6b, #3b8d99);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.inputField {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3b8d99;
+    border: none;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 34px;
+    color: white;
+}
+
+body {
+    background-image: url(coffee.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 94vh;
+    background-position: center;
+    background-color: #3b8d99;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height:71vh;
+  }  
+.create{
+    color: #534E52;
+    font-weight: bold;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border: black 40px;
+    margin-right: 8px;
+}
+.LinkedIn {
+    text-decoration: none;
+    color: #534E52;
+    font-weight: bold;
+}
+.toDoAdded {
+    background-color: #aa4b6b;
+    list-style-type: none;
+    height: 30px;
+    width: 40%;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toDoCompleted {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
