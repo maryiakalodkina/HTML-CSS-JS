@@ -104,6 +104,10 @@ body {
     .bottom {
         justify-content: center;
     }
+  .toDoAdded {
+    height: fit-content;
+    width: 60%;
+  }
 
 }
 
@@ -115,4 +119,9 @@ body {
         justify-content: center;
     }
 
+  .toDoAdded {
+    height: fit-content;
+    width: 60%;
+  }
+}
 }
