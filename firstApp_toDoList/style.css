@@ -27,35 +27,41 @@ h1 {
     font-size: 34px;
     color: white;
 }
+.question {
+    border-radius: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 8px;
+    border: none;
+    background-color: #aa4b6b;
+    color:white;
+    font-size: 21px;
+}
 
 body {
-    background-image: url(coffee.avif);
+    background-image: url(coffee.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 94vh;
+    min-height: 100vh;
     background-position: center;
-    background-color: #3b8d99;
+    background-color: #f2dcc5;
 }
 .bottom {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height:71vh;
+    height:70vh;
   }  
 .create{
     color: #534E52;
-    font-weight: bold;
     flex-wrap: wrap;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
     border: black 40px;
     margin-right: 8px;
 }
 .LinkedIn {
     text-decoration: none;
     color: #534E52;
-    font-weight: bold;
 }
 .toDoAdded {
     background-color: #aa4b6b;
@@ -82,15 +88,31 @@ body {
     transition: all 2s ease;
 }
 
+.toDisplayMessage {
+    font-size: 16px;
+    color:white;
+    background-color: #3b8d99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 @media all and (max-width: 800px) {
     h1 {
         font-size: 40px;
     }
-    
+    .bottom {
+        justify-content: center;
+    }
+
 }
 
 @media all and (max-width: 500px) {
     h1 {
         font-size: 30px;
     }
+    .bottom {
+        justify-content: center;
+    }
+
 }

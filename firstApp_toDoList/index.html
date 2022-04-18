@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>To-Do List App</title>
 </head>
 <body>
@@ -13,19 +14,24 @@
         <h1>What are your plans for today?</h1>
     </div>
     <div class="container">
+        <button class="question">?</button>
         <input class="inputField" type="text">
         <button class="btn" type="submit">+</button>
+        
     </div>
+
+    <!-- <p class="explanation">To cross out the task, click once.</p>
+    <p class="explanation">To remove the task from the list, double-click.</p> -->
 
     <ul class="toDoContainer">
     </ul>
 
     <div class="bottom">
         <p class="create">Created by Maryia Kalodkina. Contact:  
-           <i style="font-size:17px" class="fa">&#xf08c;</i><a class="LinkedIn" href="https://www.linkedin.com/in/maryiakalodkina/" target="_blank">LinkedIn</a>
+           <a class="LinkedIn" href="https://www.linkedin.com/in/maryiakalodkina/" target="_blank">Linked<i style="font-size:17px" class="fa">&#xf08c;</i></a>
         </p>
     </div>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
